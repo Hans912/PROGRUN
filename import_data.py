@@ -57,8 +57,8 @@ html_content_friend = f'''<!DOCTYPE html>
 '''
 
 # I create a new html file called frien_community where I will display all our friends we "follow" (This should be a future feature)
-output_file_friend = "Deliverable_2/friend_community.html"
-with open(output_file_friend, 'w') as file:
+output_file = "Deliverable_2/friend_community.html"
+with open(output_file, 'w') as file:
     file.write(html_content_friend)
 
 
@@ -121,6 +121,6 @@ html_content_explore = f'''<!DOCTYPE html>
 '''
 
 # Output to explore commmunity which will be for people you don't follow
-output_file_friend = "Deliverable_2/explore_community.html"
-with open(output_file_friend, 'w') as file:
+output_file = "Deliverable_2/explore_community.html"
+with open(output_file, 'w') as file:
     file.write(html_content_explore)
